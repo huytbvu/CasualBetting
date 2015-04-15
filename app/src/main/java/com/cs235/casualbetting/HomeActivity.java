@@ -7,6 +7,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 
@@ -19,9 +21,22 @@ public class HomeActivity extends ActionBarActivity {
 
         String balance = getResources().getString(R.string.currentBalance) + "$10.27" + getResources().getString(R.string.toTransfer);
 
-        ((TextView)findViewById(R.id.balanceView)).setText(balance);
+    //    ((ImageView)findViewById(R.id.previousBetView)).setImageDrawable(null);
+    //    ((ImageView)findViewById(R.id.previousBetView)).setImageResource(R.drawable.previous_bet);
+    //   ((ImageView)findViewById(R.id.currentBetView)).setImageDrawable(null);
+    //    ((ImageView)findViewById(R.id.currentBetView)).setImageResource(R.drawable.current_bet);
 
-        ((Button)findViewById(R.id.logoutBtn)).setOnClickListener(new View.OnClickListener() {
+        ((TextView)findViewById(R.id.balanceView)).setText(balance);
+        ((TextView)findViewById(R.id.balanceView)).setClickable(true);
+        ((TextView)findViewById(R.id.balanceView)).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent toTransfer = new Intent(HomeActivity.this, BankActivity.class);
+                startActivity(toTransfer);
+            }
+        });
+
+        ((ImageButton)findViewById(R.id.betnowBtn)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent toSport = new Intent(HomeActivity.this, SportActivity.class);

@@ -13,7 +13,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="20"
             android:id="@+id/itemDate"
-            android:textSize="16sp"/>
+            android:textSize="16sp"
+            android:text="date"/>
 
 
         <TextView
@@ -21,7 +22,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="50"
             android:id="@+id/itemTitle"
-            android:textSize="20sp"/>
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="title"/>
 
         </LinearLayout>
 
@@ -29,14 +32,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="15sp"
-        android:id="@+id/itemSubtitle"/>
+        android:id="@+id/itemSubtitle"
+        android:textStyle="italic"
+        android:layout_marginLeft="10dp"
+        android:text="sub"/>
 
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="12sp"
-        android:id="@+id/itemDescription"/>
+        android:id="@+id/itemDescription"
+        android:layout_marginLeft="10dp"
+        android:text="description"/>
 
 
 

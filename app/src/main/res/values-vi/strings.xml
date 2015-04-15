@@ -7,12 +7,33 @@
     <string name="title_activity_bank">Transfer</string>
     <string name="title_activity_sport">Sports</string>
     <string name="title_activity_bet">Betting</string>
+    <string name="title_activity_sport_list">SportListActivity</string>
+    <string name="hello_world">Hello world!</string>
 
+    <string name="back">Trở Lại</string>
+    <string name="ok">OK</string>
+    <string name="notnow">Không</string>
+    <string name="transferConfirm">Chuyển</string>
+    
+    <string name="emptyIDPassTitle">ID hoăc Mật mã bỏ trống</string>
+    <string name="emptyIDPassDesc">Xin ghi ID và Mật mã</string>
+    <string name="authenFailTitle">Không thể xác thực</string>
+    <string name="authenFailDesc">ID và mật mã không đúng. Xin sửa lại</string>
+
+    <string name="invalidTitle">Thông tin sai</string>
+    <string name="invalidDesc">Xin điền vào số tiền muốn chuyển</string>
+    <string name="transConfirmTitle">Xác nhận chuyển khoản</string>
+    <string name="transConfirmDesc">Bạn xác nhận mục chuyển khoản này?</string>
 
     <string name="loginID">Tên</string>
     <string name="loginPass">Mật Mã</string>
     <string name="loginBtn">Đặt Cược</string>
     <string name="signupBtn">Tham Gia</string>
+
+    <string name="currentBalance">Tài khoản của bạn hiện có </string>
+    <string name="toTransfer">Đi tới chuyển khoản</string>
+    <string name="profile">Thiết lập</string>
+    <string name="logout">Thoát</string>
 
 
     <string name="fromAccount">Chuyển Từ</string>

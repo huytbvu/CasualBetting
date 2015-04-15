@@ -73,6 +73,8 @@
             android:layout_height="0dp"
             android:layout_weight="10"
             android:hint="@string/transferAmount"
+            android:inputType="numberDecimal"
+            android:id="@+id/transferAmount"
             android:padding="5dp"/>
 
 
@@ -89,13 +91,15 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="5"
-            android:text="@string/clearAmount"/>
+            android:text="@string/clearAmount"
+            android:id="@+id/clearTransferBtn"/>
 
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="5"
-            android:text="@string/transfer"/>
+            android:text="@string/transfer"
+            android:id="@+id/scheduleTransferBtn"/>
 
     </LinearLayout>
 
@@ -111,7 +115,8 @@
         android:layout_margin="10dp"
         android:layout_marginTop="20dp"
         android:background="#0000FF"
-        android:text="@string/addAccount"/>
+        android:text="@string/addAccount"
+        android:id="@+id/addAccountBtn"/>
 
     <Button
         android:layout_width="match_parent"

@@ -7,29 +7,44 @@
     <string name="title_activity_bank">Transfer</string>
     <string name="title_activity_sport">Sports</string>
     <string name="title_activity_bet">Betting</string>
+    <string name="title_activity_sport_list">SportListActivity</string>
+    <string name="hello_world">Hello world!</string>
 
+    <string name="back">帰って</string>
+    <string name="ok">はい</string>
+    <string name="notnow">いいえ</string>
+    <string name="transferConfirm">Transfer</string>
 
-    <string name="loginID">Bettor ID</string>
-    <string name="loginPass">Password</string>
-    <string name="loginBtn">Bet NOW</string>
-    <string name="signupBtn">Become a Bettor</string>
+    <string name="emptyIDPassTitle">Empty ID or Password</string>
+    <string name="emptyIDPassDesc">Please enter your Bettor ID and Password</string>
+    <string name="authenFailTitle">Authentication Failed</string>
+    <string name="authenFailDesc">Bettor ID and Password mismatched. Please correct</string>
 
+    <string name="invalidTitle">非合法の振替</string>
+    <string name="invalidDesc">金額を入力してください</string>
+    <string name="transConfirmTitle">振替の確認</string>
+    <string name="transConfirmDesc">Authorize this transfer?</string>
 
-    <string name="fromAccount">From</string>
-    <string name="toAccount">To</string>
-    <string name="transferAmount">Enter Amount</string>
-    <string name="clearAmount">Clear</string>
-    <string name="transfer">Transfer</string>
-    <string name="addAccount">Add New Account</string>
+    <string name="loginID">博奕打ち</string>
+    <string name="loginPass">パスワード</string>
+    <string name="loginBtn">ログイン</string>
+    <string name="signupBtn">登録をして</string>
 
+    <string name="currentBalance">Your current balance is </string>
+    <string name="toTransfer">Visit Balance Transfer Manager</string>
+    <string name="profile">設定</string>
+    <string name="logout">ログアウト</string>
 
-    <string name="sportFootball">Football</string>
-    <string name="sportTennis">Tennis</string>
-    <string name="sportFormulaOne">Formula 1</string>
-    <string name="sportBasketball">Transfer</string>
-    <string name="sportSwimming">Swimming</string>
-    <string name="sportHorseRacing">Horse Racing</string>
-    <string name="sportGymnastics">Gymnastics</string>
-    <string name="sportBoxing">Boxing</string>
+    <string name="fromAccount">起源</string>
+    <string name="toAccount">先</string>
+    <string name="transferAmount">金額</string>
+    <string name="clearAmount">一掃して</string>
+    <string name="transfer">振替</string>
+    <string name="addAccount">あたらしい　口座</string>
+
+    <string name="sportFootball">サッカー</string>
+    <string name="sportTennis">テニス</string>
+    <string name="sportFormulaOne">フォーミュラ　1</string>
+
 
 </resources>
